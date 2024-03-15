@@ -1,0 +1,24 @@
+[33mcommit dfac5fba0239600c7324369897abb7b84b34b20c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 888c2ed 9820160
+Author: NunoOliveira668 <162144626+NunoOliveira668@users.noreply.github.com>
+Date:   Tue Mar 12 10:29:23 2024 +0000
+
+    Merge pull request #3 from notAndreCruz/tarefaoliveira
+    
+    Adicionei uma linha no readme
+
+[33mcommit 9820160acfd24032ce5272b326723f2aef187a61[m
+Merge: 583312c 888c2ed
+Author: NunoOliveira668 <162144626+NunoOliveira668@users.noreply.github.com>
+Date:   Tue Mar 12 10:29:14 2024 +0000
+
+    Merge branch 'main' into tarefaoliveira
+
+[33mcommit 888c2ed2f4f1496334c28318f68adbb8312631a9[m
+Merge: 4c3b199 dd26930
+Author: notAndreCruz <86850898+notAndreCruz@users.noreply.github.com>
+Date:   Tue Mar 12 09:55:43 2024 +0000
+
+    Merge pull request #2 from notAndreCruz/teste1
+    
+    Outra linha atraves do commit teste1
