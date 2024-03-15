@@ -81,3 +81,10 @@ Uma vez aprovada e revista, realizamos a integração da pull request, mesclando
 Fechar a Pull Request:
 Após a integração das alterações, a pull request é fechada, indicando que o trabalho foi concluído com sucesso.
 Seguindo estes passos, garantimos um processo de colaboração suave e organizado, permitindo que cada contribuição seja revista e integrada de forma eficiente à base de código principal.
+
+Durante este projeto, aprendemos a importância da comunicação e colaboração eficazes ao trabalhar em equipa.
+A prática constante com ferramentas como Git ajudo-nos a desenvolver habilidades essenciais para trabalhar em projetos colaborativos.
+
+Este README.md serve como um registro detalhado do processo de desenvolvimento colaborativo realizado neste projeto. Ele documenta cada etapa, desde a criação do repositório até a integração das contribuições e oferece insights sobre as práticas e aprendizados obtidos durante o processo.
+
+Infelizmente durante o trabalho nao nos lembramos de tirar Prints, mas felizmente deparamonos com muitos poucos erros ao longo deste projeto.
