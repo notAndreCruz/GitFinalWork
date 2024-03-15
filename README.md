@@ -31,3 +31,53 @@ Primeiro, nos certificamos de que a branch a ser rebased estava atualizada com o
 
 Cherry-Picks: Para trazer alterações específicas de uma branch para outra, sem incorporar todas as mudanças presentes na branch de origem, recorremos aos cherry-picks. 
 Identificamos o commit desejado na branch de origem e aplicamos esse commit na branch de destino usando "git cherry-pick <commit>".
+
+6. Tags:
+Utilizamos tags para marcar releases significativas do projeto, facilitando o acompanhamento do progresso e a identificação de versões estáveis.
+Para criar uma tag seguimos os passos abaixo:
+
+Identificar o Commit Correspondente à Versão a Ser Marcada:
+Revisamos o histórico de commits para identificar o commit que representa a versão que desejamos marcar com a tag.
+
+Criar a Tag:
+Utilizamos o comando git tag seguido pelo nome da tag e do identificador do commit. Por exemplo:
+"git tag -a v1.0 -m "Versão 1.0""
+O parâmetro "-a" cria uma tag anotada, que inclui informações adicionais como autor, data e mensagem.
+
+Enviar a Tag para o Repositório Remoto:
+Após criar a tag localmente, precisamos enviá-la para o repositório remoto usando o comando:
+"git push origin <V1.0.0>"
+
+Isso garante que a tag esteja disponível para outros colaboradores e para fins de referência futura.
+
+7. Pull Requests:
+Todas as contribuições foram enviadas ao repositório original via pull requests, com descrições claras do que cada uma adiciona ou modifica.
+Abaixo estão os passos para criar uma pull request:
+
+Criar uma Branch para a Feature ou Correção:
+Antes de iniciar o trabalho, criamos uma nova branch a partir do branch principal utilizando "git checkout -b <nome_da_branch>".
+
+Desenvolver as Alterações:
+Implementamos as mudanças necessárias na nova branch, realizando commits conforme avançamos no desenvolvimento.
+
+Sincronizar a Branch com as Atualizações do Branch Principal:
+Regularmente, sincronizamos a nossa branch com as atualizações do branch principal utilizando "git pull origin <branch_principal>".
+
+Criar a Pull Request:
+No GitHub, navegamos até a página do repositório e selecionamos a nossa branch.
+Clicamos no botão "New pull request".
+Selecionamos o branch principal como destino da pull request e a nossa branch como origem.
+Preenchemos uma descrição clara e informativa, explicando as alterações realizadas.
+
+Rever e Discutir as Alterações:
+Revemos a pull request, fornecendo feedback e sugestões através de comentários na interface do GitHub.
+
+Realizar Modificações se Necessário:
+Se forem solicitadas alterações adicionais, fazemos as modificações na nossa branch local e realizamos commits adicionais.
+
+Integrar a Pull Request:
+Uma vez aprovada e revista, realizamos a integração da pull request, mesclando as alterações no branch principal.
+
+Fechar a Pull Request:
+Após a integração das alterações, a pull request é fechada, indicando que o trabalho foi concluído com sucesso.
+Seguindo estes passos, garantimos um processo de colaboração suave e organizado, permitindo que cada contribuição seja revista e integrada de forma eficiente à base de código principal.
